@@ -12,11 +12,11 @@ body {
     background-color: white;
     opacity: 0.9;
     width: 80%;
-    height: 120%;
+    height: 125%;
     padding: 10px;
     float: left;
     position: absolute;
-    margin: auto;
+    margin:auto;
     top: 0; left: 0; bottom: 0; right: 0;
     padding-top: 30px;
 }
@@ -66,12 +66,24 @@ body {
 }
 #bottompage {
     text-align: left;
+    margin-top: 60px;
+    background-color: white;
 }
 div {
         text-align: center;
         margin: 0px auto;
       }
+#imagecenter{ display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
 .menu{display:inline-flex;
-	margin-top: 60px;
-margin-bottom: 100px;
+margin-top: 60px;
+margin-bottom: 100px;}
+.aboutus
+{margin-top: 50px;
+    border-style: dashed;
+    border-color: antiquewhite;
 }
+#gallery{
+transform:translateX(-10)}
