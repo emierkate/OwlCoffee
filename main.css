@@ -71,3 +71,4 @@ div {
         text-align: center;
         margin: 0px auto;
       }
+      .menu{display:inline-flex;}
