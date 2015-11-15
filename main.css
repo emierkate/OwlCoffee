@@ -62,8 +62,6 @@ body {
     width: 300px;
     height: 200px;
 }
-#promotext1 {
-}
 #bottompage {
     text-align: left;
     margin-top: 60px;
@@ -74,17 +72,20 @@ div {
         text-align: center;
         margin: 0px auto;
       }
-#imagecenter{ display: block;
+#imagecenter{ 
+	display: block;
         margin-left: auto;
         margin-right: auto;
-        }
-.menu{display:inline-flex;
-margin-top: 60px;
-margin-bottom: 100px;}
-.aboutus
-{margin-top: 50px;
-    border-style: dashed;
-    border-color: antiquewhite;
 }
-#gallery{
-transform:translateX(-10)}
+.menu {
+	display:inline-flex;
+	margin-top: 60px;
+	margin-bottom: 100px;}
+.aboutus {
+	margin-top: 50px;
+    	border-style: dashed;
+    	border-color: antiquewhite;
+}
+#gallery {
+transform:translateX(-10)
+}
