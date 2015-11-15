@@ -67,3 +67,7 @@ body {
 #bottompage {
     text-align: left;
 }
+div {
+        text-align: center;
+        margin: 0px auto;
+      }
