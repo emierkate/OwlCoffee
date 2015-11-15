@@ -68,6 +68,7 @@ body {
     text-align: left;
     margin-top: 60px;
     background-color: white;
+    float: left;
 }
 div {
         text-align: center;
