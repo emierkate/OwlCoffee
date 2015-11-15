@@ -65,6 +65,8 @@ body {
 #bottompage {
     text-align: left;
     margin-top: 60px;
+    float:left;
+    position:relative;
 }
 div {
         text-align: center;
