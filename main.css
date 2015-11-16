@@ -80,7 +80,9 @@ div {
 .menu {
 	display:inline-flex;
 	margin-top: 60px;
-	margin-bottom: 100px;}
+	margin-bottom: 100px;
+	float: left;
+}
 .aboutus {
 	margin-top: 50px;
     	border-style: dashed;
