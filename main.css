@@ -81,7 +81,7 @@ div {
 	margin-top: 60px;
 	margin-bottom: 100px;
 	float: left;
-	position: absolute;
+	clear: left;
 }
 .aboutus {
 	margin-top: 50px;
