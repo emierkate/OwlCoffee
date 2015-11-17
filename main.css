@@ -67,10 +67,7 @@ body {
     margin-top: 60px;
     float:left;
 }
-div {
-        text-align: center;
-        margin: 0px auto;
-      }
+
 #imagecenter{ 
 	display: block;
         margin-left: auto;
@@ -87,6 +84,8 @@ div {
 	margin-top: 50px;
     	border-style: dashed;
     	border-color: antiquewhite;
+    	text-align: center;
+        margin: 0px auto;
 }
 #gallery {
 transform:translateX(-10);
