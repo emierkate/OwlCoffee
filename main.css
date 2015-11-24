@@ -38,10 +38,10 @@ nav a {
     padding-bottom: 1%;
 }
 .promotions {
-    background: -webkit-radial-gradient (ccccd1, e7e7ea, ffffff); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient (ccccd1, e7e7ea, ffffff); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient (ccccd1, e7e7ea, ffffff); /* For Firefox 3.6 to 15 */
-    background: radial-gradient (ccccd1, e7e7ea, ffffff);
+    background: rgb(216,216,216); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgb(216,216,216) 0%, rgb(255,255,255) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(216,216,216) 0%,rgb(255,255,255) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgb(216,216,216) 0%,rgb(255,255,255) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     width: 700px;
     height: 300px;
     margin-left: auto;
