@@ -118,8 +118,9 @@ footer a {
     margin: 30px;
 }
 .menusub {
-    float: left;
-    margin-left: 30px;
+    width: 15%;
+    margin-left: 25%;
+    margin-right: 60%;
     font-size: 35pt;
     padding: 15px;
     clear: both;
