@@ -38,10 +38,7 @@ nav a {
     padding-bottom: 1%;
 }
 .promotions {
-    background: rgb(216,216,216); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, rgb(216,216,216) 0%, rgb(255,255,255) 100%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover, rgb(216,216,216) 0%,rgb(255,255,255) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center, rgb(216,216,216) 0%,rgb(255,255,255) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(216,216,216) 0%,rgb(255,255,255) 100%); 
     width: 700px;
     height: 300px;
     margin-left: auto;
