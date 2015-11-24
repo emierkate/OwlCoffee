@@ -38,7 +38,7 @@ nav a {
     padding-bottom: 1%;
 }
 .promotions {
-    background: -webkit-radial-gradient(center, ellipse cover, rgb(191,191,191) 0%,rgb(255,255,255) 100%); 
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(255,255,255) 0%,rgb(191,191,191) 100%); 
     border-style: solid;
     border-color: 2px black;
     width: 700px;
