@@ -122,6 +122,7 @@ footer a {
     margin-left: 30px;
     font-size: 35pt;
     padding: 15px;
+    clear: both;
 }
 .menu {
     width: auto;
@@ -132,6 +133,7 @@ footer a {
     margin-right: auto;
     padding: 15px;
     display: block;
+    clear: both;
 }
 
 .menuphoto img {
