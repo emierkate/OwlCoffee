@@ -40,7 +40,7 @@ nav a {
 .promotions {
     background: -webkit-radial-gradient(center, ellipse cover, rgb(191,191,191) 0%,rgb(255,255,255) 100%); 
     border-style: solid;
-    border-color: black;
+    border-color: 2px black;
     width: 700px;
     height: 300px;
     margin-left: auto;
