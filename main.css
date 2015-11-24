@@ -132,28 +132,13 @@ footer a {
     color: black;
     text-align: left;
 }
-.menusection {
-    margin: 30px;
-}
-.gallery {
-    width: 50%;
-    height: auto;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    padding: 15px;
-    display: block;
-    float: left;
-}
-.img-circle {
-    border-radius: 50%;
-}
-.galleryspace img{ margin:20px};
+
 
 
 /******************************CSS for MENU page*********************************/
-
+.menusection {
+    margin: 30px;
+}
 .menusub {
     width: 15%;
     margin-left: 25%;
@@ -176,6 +161,26 @@ footer a {
     margin: 10px;
 }
 
+/******************************CSS for GALLERY page*********************************/
+
+
+.gallery {
+    width: 50%;
+    height: auto;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    padding: 15px;
+    display: block;
+    float: left;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.galleryspace img { 
+    margin:20px;
+}
 
 /******************************* MEDIA QUERIES***********************************/
 
