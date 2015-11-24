@@ -36,8 +36,10 @@ nav a {
     display: block;
     float: left;
     width: 70%;
-    height: auto;
+    height: 70%;
     background-color: black;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 .promotions {
     background-color: white;
