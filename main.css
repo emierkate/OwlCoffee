@@ -8,6 +8,9 @@ nav {
     height: 350px;
     text-align: center;
     background-image: url(https://cloud.githubusercontent.com/assets/15840093/11383948/a3336f02-92c0-11e5-9c74-a7d253e7fd14.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
     position: relative;
 }
 nav ul {
