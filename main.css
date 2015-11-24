@@ -142,7 +142,7 @@ footer a {
 .menuphoto img {
     margin: 40px;
 }
-
+   .galleryspace img{ margin:20px};
 
 
 /******************************CSS for MENU page*********************************/
@@ -229,7 +229,7 @@ footer a {
             height: 300px;
         }
       }
-      .galleryspace img{ margin:20px};
+   
 
 /*********************************** for 480px or less *************************/
       @media screen and (max-width: 470px) {
