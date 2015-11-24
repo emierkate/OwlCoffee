@@ -39,8 +39,8 @@ nav a {
     width: 70%;
     height: 90%;
     background-color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom:5%;
 }
 .promotions {
     background-color: white;
@@ -142,21 +142,7 @@ footer a {
 .menuphoto img {
     margin: auto;
 }
-.gallery {
-    width: 50%;
-    height: auto;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    padding: 15px;
-    display: block;
-    float: left;
-}
 
-.img-circle {
-    border-radius: 50%;
-}
 
 
 /******************************CSS for MENU page*********************************/
