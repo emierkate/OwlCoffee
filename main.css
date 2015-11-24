@@ -38,7 +38,7 @@ nav a {
     padding-bottom: 1%;
 }
 .promotions {
-    background-color: grey;
+    background: radial-gradient (ccccd1, e7e7ea, ffffff);
     width: 700px;
     height: 300px;
     margin-left: auto;
