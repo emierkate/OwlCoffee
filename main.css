@@ -132,6 +132,7 @@ footer a {
     padding: 15px;
     display: block;
     clear: both;
+    float: left;
 }
 
 .menuphoto img {
