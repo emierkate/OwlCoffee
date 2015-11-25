@@ -61,10 +61,11 @@ nav a {
     position: absolute;
     float: left;
 }
-.promotext{
-    float: right;
+.promotext {
+    float: left;
     margin: 20px;
     width: 240px;
+    padding: 5px;
 }
 article {
     width: 100%;
