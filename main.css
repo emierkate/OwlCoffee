@@ -149,7 +149,7 @@ footer a {
 .menuphoto img {
     margin: 10px;
 }
-.menuphoto img {
+.menuphoto {
     outline: none;
     display: block;
 }
