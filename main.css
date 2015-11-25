@@ -30,6 +30,8 @@ nav a {
     padding: 10px;
     text-decoration: none;
     color: white;
+    font-style: bold;
+    font-size: 30pt;
 }
 #section1 {
     display: block;
