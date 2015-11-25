@@ -60,6 +60,8 @@ nav a {
     margin: 20px 0 20px 20px;
     position: absolute;
     float: left;
+    font-size: 17pt;
+    font-style: bold;
 }
 .promotext {
     float: right;
