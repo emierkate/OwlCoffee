@@ -172,22 +172,19 @@ footer a {
 .galleryspace img { 
     margin:20px;
     width: 20%;
+     height: 250px;
+      overflow:hidden;
+    background-image:url(https://cloud.githubusercontent.com/assets/15840105/11404784/9b199182-9358-11e5-9c3f-df78c6d140cb.png);
+    background-position: 0px 0px;
 }
-
-#gallerywrap    {
-    width: 100%; 
-}
-.portrait{
-        width:250px;
-        height: 250px;
-        overflow:hidden;
-        background-image:url(spritesheet.png);
-        background-position: 0px 0px;
-    }
-    .portrait:hover{
+.galleryspace img:hover{
         background-position: 0px 250px;
          cursor:pointer;
     }
+#gallerywrap    {
+    width: 100%; 
+}
+
 /******************************CSS for Aboutus page*********************************/
 .subtitle {text-align: center;
     font-size: 30pt;
