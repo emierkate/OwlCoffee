@@ -65,7 +65,7 @@ nav a {
     float: right;
     margin: 20px;
     width: 240px;
-    padding: 1px;
+    text-align: left;
 }
 article {
     width: 100%;
