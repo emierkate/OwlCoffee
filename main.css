@@ -149,11 +149,6 @@ footer a {
 .menuphoto img {
     margin: 10px;
 }
-.menuphoto:target {
-    outline: none;
-    display: block;
-}
-
 /******************************CSS for GALLERY page*********************************/
 
 
