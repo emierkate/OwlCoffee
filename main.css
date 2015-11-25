@@ -61,6 +61,11 @@ nav a {
     position: absolute;
     float: left;
 }
+.promophoto img {
+    max-width: 100%;
+    max-height: 100%;
+}
+}
 .promotext{
     float: right;
     margin: 20px;
