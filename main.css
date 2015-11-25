@@ -157,7 +157,6 @@ footer a {
     height: auto;
     margin-bottom: 5%;
     margin-left: 25%;
-    margin-right: 25%;
     margin-top: 5%;
     padding: 15px;
     display: block;
@@ -168,7 +167,34 @@ footer a {
 }
 .galleryspace img { 
     margin:20px;
+    width: 20%;
 }
+
+#gallerywrap    {
+    width: 100%; 
+}
+/******************************CSS for Aboutus page*********************************/
+.subtitle {text-align: center;
+    font-size: 30pt;
+    clear:both;
+    float:inherit;
+    margin-top: 5%;}
+
+.aboutus{ text-align: center;
+    font-size: 20px;
+    clear:both;
+    float: left;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: dashed;
+    border-color: antiquewhite;}
+
+#picForAboutUs{margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    margin-top: 5%;}
 
 /******************************* MEDIA QUERIES***********************************/
 
