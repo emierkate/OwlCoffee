@@ -170,10 +170,7 @@ footer a {
     margin:20px;
     width: 20%;
 }
-.galleryspace img:hover{
-     cursor:pointer;
-     background-image:url(https://cloud.githubusercontent.com/assets/15840105/11404951/a9ad0782-9359-11e5-8327-26e7a882f517.png);
-    }
+
 #gallerywrap    {
     width: 100%; 
 }
