@@ -60,14 +60,14 @@ nav a {
     margin: 20px 0 20px 20px;
     position: absolute;
     float: left;
-    font-size: 17pt;
-    font-style: bold;
 }
 .promotext {
     float: right;
     margin: 20px;
     width: 240px;
     text-align: left;
+    font-size: 17pt;
+    font-style: bold;
 }
 article {
     width: 100%;
