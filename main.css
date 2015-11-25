@@ -250,6 +250,10 @@ footer a {
             float: none;
             height: 1880px;
         }
+        .galleryspace img  {
+              width: 30%;
+          }
+      }
 /************************************ for 700px or less *************************/
       @media screen and (max-width: 700px) {
 
@@ -269,6 +273,9 @@ footer a {
         article {
             height: 300px;
         }
+        .galleryspace img  {
+              width: 40%;
+          }
       }
 
 
@@ -288,5 +295,9 @@ footer a {
             margin-top: 300px;
             width: 400px;
         }
+        .galleryspace img  {
+              width:50%;
+          }
+
       }
 
