@@ -6,10 +6,10 @@ nav {
     width: 100%;
     height: 350px;
     text-align: center;
-    background-image: url(https://cloud.githubusercontent.com/assets/15840093/11383948/a3336f02-92c0-11e5-9c74-a7d253e7fd14.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:center;
+    background-position: fixed;
     position: relative;
     filter: blur(20px) grayscale(10%);
 }
@@ -22,13 +22,21 @@ nav ul {
 }
 nav li {
     display: inline;
-    margin: 30px;
+    margin: 20px;
 }
 nav a {
     display: inline-block;
-    padding: 10px;
-    text-decoration: none;
+    padding: 3px;
     color: white;
+    font-size: 15pt;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav a:link {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 #body1 {
     width: 100%;
@@ -56,7 +64,7 @@ nav a {
     background-position: 133.33% bottom; } 
 }
 #coffeebanner {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -72,12 +80,15 @@ nav a {
 #check {
     width: 20%;
     height: 40px;
-    background-color: #aac2b9;
     margin-left: 60%;
     margin-right: 20%;
     margin-top: 10px;
-    padding: 2px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+#check a:link {
+    text-decoration: none;
 }
 #section1 {
     display: block;
@@ -95,6 +106,9 @@ nav a {
     border-style: solid;
     border-color: black;
     border-width: 0.5pt;
+    -webkit-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
     width: 550px;
     height: 300px;
     display: inline-block;
@@ -113,8 +127,9 @@ nav a {
     margin: 20px;
     width: 190px;
     text-align: left;
-    font-size: 14pt;
+    font-size: 16pt;
     font-style: bold;
+    font-family: 'Roboto', sans-serif;
 }
 article {
     width: 100%;
@@ -159,44 +174,82 @@ footer {
     float: left;
     margin: 50px;
     text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 #online {
     float: left;
     margin: 50px;
     text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 footer a {
     text-decoration: none;
     color: black;
     text-align: left;
 }
-h1{text-align: center;}
-
+h1  {
+    text-align: center;
+}
+#bottomnav {
+    text-align:center;
+    background-color: black;
+    margin-bottom: auto;
+}
+#bottomnav li {
+    display: inline;
+}
+#bottomnav img {
+    display: none;
+}
+#bottomnav a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin: 20px;
+    padding: 2px;
+}
 
 /******************************CSS for MENU page*********************************/
 .menusection {
     margin: 30px;
 }
 .menusub {
-    width: 15%;
-    margin-left: 25%;
-    margin-right: 60%;
+    width: 50%;
+    margin-left: 15%;
     font-size: 35pt;
     padding: 15px;
     clear: both;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .menu {
     width: 50%;
     height: auto;
     margin-left: 25%;
     margin-right: 25%;
-    padding: 15px;
-    display: block;
+    padding: 25px;
     float: left;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .menuphoto img {
-    margin: 10px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.75);
+}
+#hot {
+    float: left;
+    margin: 20px;
+    text-align: center;
+    display: block;
+}
+#cold {
+    float: left;
+    margin: 20px;
+    text-align: center;
+    display: block;
 }
 /******************************CSS for GALLERY page*********************************/
 
@@ -360,6 +413,7 @@ VIEW COMPILED
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+        font-family: 'Roboto Condensed', sans-serif;
 }
 
 #picForAboutUs {
