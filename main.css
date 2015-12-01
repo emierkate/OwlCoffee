@@ -361,6 +361,15 @@ VIEW COMPILED
     margin-left: 25%;
     margin-right: 25%;
 }
+.contactinformation{
+    text-align: center;
+    clear:both;
+    float: left;
+    display: block;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 #picForAboutUs {
     margin-left: 25%;
