@@ -8,10 +8,10 @@ nav {
     text-align: center;
     background-image: url(https://cloud.githubusercontent.com/assets/15840093/11383948/a3336f02-92c0-11e5-9c74-a7d253e7fd14.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     background-attachment: fixed;
     background-position:center;
     position: relative;
+    filter: blur(20px) grayscale(10%);
 }
 nav ul {
     list-style-type: none;
@@ -30,6 +30,55 @@ nav a {
     text-decoration: none;
     color: white;
 }
+#body1 {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+@keyframes h_slide {
+  0% {
+    background-position: 0% bottom; }
+  20% {
+    background-position: 0% bottom; }
+  25% {
+    background-position: 33.33333% bottom; }
+  45% {
+    background-position: 33.33333% bottom; }
+  50% {
+    background-position: 66.66667% bottom; }
+  70% {
+    background-position: 66.66667% bottom; }
+  75% {
+    background-position: 100% bottom; }
+  95% {
+    background-position: 100% bottom; }
+  100% {
+    background-position: 133.33% bottom; } 
+}
+#coffeebanner {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 900px;
+    background: url(img/slider-horizontal.jpg)0 bottom repeat-x;
+    background-repeat: no-repeat;
+    background-size: 400%;
+    padding-bottom: 32.5%;
+    -webkit-animation: h_slide 10s ease-out infinite;
+    -moz-animation: h_slide 10s ease-out infinite;
+    animation: h_slide 10s ease-out infinite; 
+}
+#check {
+    width: 20%;
+    height: 40px;
+    background-color: #aac2b9;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: 10px;
+    padding: 2px;
+    text-align: center;
+}
 #section1 {
     display: block;
     float: left;
@@ -38,18 +87,18 @@ nav a {
     background-color: white;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .promotions {
     background: -webkit-radial-gradient(center, ellipse cover, rgb(255,255,255) 0%,rgb(222,222,222) 100%); 
     border-style: solid;
     border-color: black;
     border-width: 0.5pt;
-    width: 700px;
+    width: 550px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    display: inline-block;
+    margin: 40px;
 }
 .promophoto {
     background-color: black;
@@ -62,7 +111,7 @@ nav a {
 .promotext {
     float: right;
     margin: 20px;
-    width: 240px;
+    width: 190px;
     text-align: left;
     font-size: 14pt;
     font-style: bold;
@@ -295,13 +344,15 @@ top: 0px;
 }
 VIEW COMPILED
 /******************************CSS for Aboutus page*********************************/
-.subtitle {text-align: center;
+.subtitle {
+    text-align: center;
     font-size: 30pt;
     clear:both;
     float:inherit;
     margin-top: 5%;}
 
-.aboutus{ text-align: center;
+.aboutus {
+    text-align: center;
     font-size: 20px;
     clear:both;
     float: left;
@@ -309,10 +360,10 @@ VIEW COMPILED
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    border-style: dashed;
-    border-color: antiquewhite;}
+}
 
-#picForAboutUs{margin-left: 25%;
+#picForAboutUs {
+    margin-left: 25%;
     margin-right: 25%;
     width: 50%;
     margin-top: 5%;}

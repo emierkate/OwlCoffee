@@ -44,14 +44,33 @@
         </div>
     
     <article>
-            <div></div>
+            <div>
+            <form action="" method="post">
+               <fieldset  id="subscribe">
+                   <legend>Subscribe</legend>
+                   <div class="form">Name:  <br/>
+                       <input type="text" id="name" name="name" value="" required="required"
+                          placeholder="Enter name" pattern="[A-Za-z]"></div>
+                   <div class="form">E-mail address:  <br/>
+                       <input type="email" id="email" name="email"
+                          placeholder="Enter email" required="required"/></div>
+                   <div class="form">Message:  <br/>
+                       <input type="message" id="message" name="message" pattern="[A-Za-z0-9]{8,20}"
+                          placeholder="Tell us what you think" required="required"/ style="width:580px;height:100px"></div>
+                   <br/><br/>
+                   <input id="submit" name="submit" value="Submit" type="submit"/>
+                   <input id="reset" name="reset" value="Reset" type="reset"/>
+               </fieldset>
+            </form>
+            </div>
+            
     </article>
     
     <footer>
              <div class="quicklinks">
                  <div id="aboutus">
                  <ul style="list-style:none">
-                 <li> About Us </li>
+                 <li><b>About Us</b></li>
                  <br/>
                  <li><a href="aboutus.html"> Our Company </a></li>
                  <li><a href="aboutus.html"> Contact Us </a></li>
@@ -60,7 +79,7 @@
                  
                  <div id="online">
                  <ul style="list-style:none">
-                 <li> Online Community </li>
+                 <li><b>Online Community</b></li>
                  <br/>
                  <li><a href="https://www.facebook.com/katebruce.song"> Facebook </a></li>
                  <li><a href="https://twitter.com/song_coffee"> Twitter </a></li>
