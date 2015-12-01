@@ -77,6 +77,7 @@ nav a:hover {
     -webkit-animation: h_slide 10s ease-out infinite;
     -moz-animation: h_slide 10s ease-out infinite;
     animation: h_slide 10s ease-out infinite; 
+    float:left;
 }
 #check {
     width: 20%;
@@ -91,6 +92,10 @@ nav a:hover {
 #check a:link {
     text-decoration: none;
 }
+#body2 {
+    float: left;
+    width: 100%;
+}
 #section1 {
     display: block;
     float: left;
@@ -101,10 +106,6 @@ nav a:hover {
     padding-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
-}
-#body2 {
-    float: left;
-    width: 100%;
 }
 .promotions {
     background: -webkit-radial-gradient(center, ellipse cover, rgb(255,255,255) 0%,rgb(222,222,222) 100%); 
@@ -118,6 +119,7 @@ nav a:hover {
     height: 300px;
     display: inline-block;
     margin: 40px;
+    float: left;
 }
 .promophoto {
     background-color: black;
