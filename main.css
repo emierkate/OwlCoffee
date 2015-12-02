@@ -278,6 +278,7 @@ h1  {
     padding: 25px;
     float: left;
     font-family: 'Roboto Condensed', sans-serif;
+    display:inline-block;
 }
 
 .menuphoto img {
