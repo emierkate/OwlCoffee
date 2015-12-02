@@ -500,6 +500,8 @@ VIEW COMPILED
     margin-right:25%;
     height: auto;
     float:left;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 /******************************* MEDIA QUERIES***********************************/
