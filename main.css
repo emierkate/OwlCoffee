@@ -259,6 +259,7 @@ h1  {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    float:left;
 }
 .menusub {
     width: 50%;
@@ -266,7 +267,7 @@ h1  {
     margin-right: 25%;
     font-size: 35pt;
     padding: 15px;
-    clear: both;
+    float: left;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .menu {
@@ -280,7 +281,9 @@ h1  {
 }
 
 .menuphoto img {
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 30px;
     -webkit-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.75);
