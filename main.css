@@ -518,9 +518,6 @@ VIEW COMPILED
         nav li {
             margin: auto;
         }
-        #section1 {
-            height: auto;
-        }
         .promotions {
             width: 440px;
             height: 440px;
@@ -537,7 +534,7 @@ VIEW COMPILED
         #section1 {
             width: auto;
             float: none;
-            height: 1880px;
+            height: auto;
         }
         .gallery img  {
               width: 30%;
