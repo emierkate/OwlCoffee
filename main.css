@@ -502,6 +502,7 @@ VIEW COMPILED
     float:left;
     margin-top:50px;
     margin-bottom:50px;
+    display: block;
 }
 
 /******************************* MEDIA QUERIES***********************************/
