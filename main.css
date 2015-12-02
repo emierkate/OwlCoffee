@@ -256,11 +256,14 @@ h1  {
 }
 /******************************CSS for MENU page*********************************/
 .menusection {
-    margin: 30px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .menusub {
     width: 50%;
-    margin-left: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     font-size: 35pt;
     padding: 15px;
     clear: both;
