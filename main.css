@@ -298,30 +298,40 @@ h1  {
 /******************************CSS for GALLERY page*********************************/
 
 
+#gallerywrap    {
+    width: 100%;
+margin: 30px auto;
+overflow: hidden;}
+
+        .firstline{display: block;
+    margin-left: 20%;
+        margin-right: 20%;}
+        .secondline{display:block;
+        margin-left: 20%;
+        margin-right: 20%;}
+        
+        .gallery img {
+        max-width: 100%;
+        display: block;
+    
+        margin-left: auto;
+        margin-right: auto;
+      }
 .gallery {
-    width: 50%;
-    height: auto;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    margin-top: 5%;
-    padding: 15px;
-    display: block;
-    float: left;
-}
+       
+        float: left;
+        /* NOTE: TAKE THE WIDTH PROPERTY OUT TO SEE WHAT HAPPENS */
+   width: 30%;
+        /* top right bottom left */
+     margin:  1% 1% 2% 2%;
+      }
 .img-circle {
     border-radius: 50%;
 }
 .lightbox {
     border-radius: 50%;
 }
-.galleryspace img { 
-    margin:20px;
-    width: 20%;
-}
 
-#gallerywrap    {
-    width: 100%; 
-}
 
 
 
@@ -464,9 +474,9 @@ VIEW COMPILED
     clear:both;
     float: left;
     display: block;
-    width: 50%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #picForAboutUs {
@@ -529,9 +539,25 @@ VIEW COMPILED
             float: none;
             height: 1880px;
         }
-        .galleryspace img  {
+        .gallery img  {
               width: 30%;
           }
+          .lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+width: 1000px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
       }
 /************************************ for 700px or less *************************/
       @media screen and (max-width: 700px) {
@@ -552,9 +578,25 @@ VIEW COMPILED
         article {
             height: 300px;
         }
-        .galleryspace img  {
+        .gallery img  {
               width: 40%;
           }
+          .lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+width: 500px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
       }
 
 
@@ -574,9 +616,25 @@ VIEW COMPILED
             margin-top: 300px;
             width: 400px;
         }
-        .galleryspace img  {
+       .gallery img  {
               width:50%;
           }
+                    .lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+width: 300px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
 
       }
 
